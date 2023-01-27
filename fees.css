@@ -1,0 +1,794 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .popup-overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .l {
+    position: absolute;
+    top: 85px;
+    left: 1522px;
+    font-size: var(--font-size-8xl);
+    font-weight: 200;
+    color: var(--color-gray-200);
+  }
+  .icon-awesome-search {
+    position: absolute;
+    top: 65.46px;
+    left: 1481.76px;
+    width: 18.54px;
+    height: 18.54px;
+  }
+  .search-name-date {
+    position: absolute;
+    top: 65px;
+    right: 177px;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-200);
+  }
+  .payments1 {
+    position: absolute;
+    top: 59px;
+    left: 338px;
+    font-size: var(--font-size-7xl);
+    font-weight: 600;
+    color: var(--color-teal);
+  }
+  .icon-ionic-ios-add-circle {
+    position: absolute;
+    top: calc(50% - 14.81px);
+    left: calc(50% - 83px);
+    width: 29.25px;
+    height: 29.25px;
+  }
+  .add-payments2 {
+    position: absolute;
+    top: calc(50% - 13.56px);
+    right: 31px;
+    font-weight: 500;
+  }
+  .bg,
+  .icon-ionic-ios-add-circle-parent {
+    position: absolute;
+    background-color: var(--color-white);
+  }
+  .icon-ionic-ios-add-circle-parent {
+    top: 59px;
+    right: 159px;
+    border-radius: var(--br-md);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 300px;
+    height: 74px;
+    font-size: var(--font-size-2xl);
+  }
+  .bg {
+    top: 177px;
+    right: 46px;
+    border-radius: var(--br-sm);
+    box-shadow: 0 10px 20px rgba(196, 200, 208, 0.4);
+    width: 1508px;
+    height: 1160px;
+  }
+  .payments-child {
+    position: absolute;
+    top: 409.69px;
+    right: 86.75px;
+    background-color: var(--color-gray-600);
+    width: 1422px;
+    height: 60px;
+  }
+  .div,
+  .div2 {
+    position: absolute;
+    top: 286.19px;
+    left: 584.75px;
+    font-size: var(--font-size-7xl);
+    color: var(--color-teal);
+  }
+  .div2 {
+    top: 258px;
+    left: 408px;
+  }
+  .payments-inner {
+    top: 259px;
+    right: 86.75px;
+    background-color: var(--color-gray-100);
+    width: 1422px;
+    height: 75px;
+  }
+  .action,
+  .edit1,
+  .payments-inner {
+    position: absolute;
+  }
+  .action {
+    top: 285.19px;
+    right: 197.25px;
+  }
+  .edit1 {
+    top: calc(50% - 11px);
+    left: calc(50% - 15px);
+    font-weight: 600;
+  }
+  .edit {
+    top: 363.19px;
+    right: 269.25px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-green);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 100px;
+    height: 40px;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .delete2,
+  .edit,
+  .edit4 {
+    position: absolute;
+  }
+  .edit4 {
+    top: 423.19px;
+    right: 269.25px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-green);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 100px;
+    height: 40px;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .delete2 {
+    top: calc(50% - 11px);
+    left: calc(50% - 26px);
+    font-weight: 600;
+  }
+  .delete-frame,
+  .delete-wrapper {
+    position: absolute;
+    top: 419.69px;
+    right: 109px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-brown);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 100px;
+    height: 40px;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .delete-frame {
+    top: 364.19px;
+  }
+  .csc,
+  .csc2,
+  .type-of-fee4 {
+    position: absolute;
+    top: 286.19px;
+    left: 454.75px;
+  }
+  .csc,
+  .csc2 {
+    top: 363.19px;
+    left: 492px;
+    font-size: var(--font-size-3xl);
+    font-weight: 500;
+  }
+  .csc2 {
+    top: 425.19px;
+    left: 491.5px;
+  }
+  .description6 {
+    position: absolute;
+    top: 287.38px;
+    left: 703.25px;
+  }
+  .csc-college-student-council,
+  .csc-college-student-council2 {
+    position: absolute;
+    top: 362.19px;
+    left: 618px;
+    font-weight: 600;
+  }
+  .csc-college-student-council2 {
+    top: 427.19px;
+  }
+  .duration4 {
+    position: absolute;
+    top: 286.19px;
+    left: 1109.25px;
+  }
+  .st-semester,
+  .st-semester2 {
+    position: absolute;
+    top: 360px;
+    left: 1081px;
+    font-weight: 600;
+  }
+  .st-semester2 {
+    top: 426px;
+  }
+  .amount4 {
+    position: absolute;
+    top: 287.38px;
+    left: 1350.01px;
+  }
+  .php-20000,
+  .php-200002 {
+    position: absolute;
+    top: 360px;
+    left: 1329px;
+    font-weight: 600;
+  }
+  .php-200002 {
+    top: 423.19px;
+  }
+  .path-403-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320.49px;
+    height: 1304.47px;
+  }
+  .logout1,
+  .payment-records1 {
+    position: absolute;
+    top: 997px;
+    left: 80px;
+    font-size: var(--font-size-4xl);
+  }
+  .payment-records1 {
+    top: 397px;
+    left: 44px;
+  }
+  .dashboard3 {
+    top: 261px;
+  }
+  .audit-log1,
+  .dashboard3,
+  .fees1 {
+    position: absolute;
+    left: 44px;
+    font-size: var(--font-size-4xl);
+  }
+  .fees1 {
+    top: 329px;
+    color: var(--color-teal);
+  }
+  .audit-log1 {
+    top: 657px;
+  }
+  .financial-report1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .financial-report-container {
+    position: absolute;
+    top: 593px;
+    left: 44px;
+    width: 193px;
+    height: 33px;
+    font-size: var(--font-size-4xl);
+  }
+  .admin-settings-container,
+  .colleges-container,
+  .funds1 {
+    position: absolute;
+    top: 529px;
+    left: 44px;
+    font-size: var(--font-size-4xl);
+  }
+  .admin-settings-container,
+  .colleges-container {
+    top: 725px;
+    width: 181px;
+    height: 33px;
+  }
+  .colleges-container {
+    top: 465px;
+    width: 104px;
+  }
+  .black-and-white-modern-vintage1 {
+    position: absolute;
+    top: -69px;
+    left: -69px;
+    width: 398px;
+    height: 398px;
+    object-fit: cover;
+  }
+  .payments {
+    position: relative;
+    background-color: var(--color-gray-100);
+    width: 100%;
+    height: 1402px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .payments-add-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-black);
+    width: 1920px;
+    height: 1080px;
+    opacity: 0.1;
+  }
+  .to-do-list {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background-color: var(--color-white);
+    box-shadow: 0 10px 20px rgba(196, 200, 208, 0.4);
+  }
+  .icon-ionic-md-arrow-back {
+    position: absolute;
+    top: 41px;
+    right: 42.75px;
+    width: 38.25px;
+    height: 38.25px;
+  }
+  .add-college {
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    font-size: var(--font-size-7xl);
+    font-weight: 600;
+    color: var(--color-teal);
+  }
+  .code,
+  .path-396-icon {
+    position: absolute;
+    left: 0;
+  }
+  .path-396-icon {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 50px;
+  }
+  .code {
+    top: 0;
+  }
+  .path-396-container,
+  .path-396-group,
+  .path-396-parent {
+    position: absolute;
+    top: calc(50% - 251px);
+    left: 85px;
+    width: 727px;
+    height: 90px;
+  }
+  .path-396-container,
+  .path-396-group {
+    top: calc(50% - 97px);
+  }
+  .path-396-container {
+    top: calc(50% + 52px);
+  }
+  .to-do-list-parent {
+    position: absolute;
+    right: 47px;
+    bottom: 3px;
+    width: 1507px;
+    height: 900px;
+  }
+  .component-1-90-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-lg);
+    background-color: var(--color-gray-500);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+  }
+  .add {
+    position: absolute;
+    top: calc(50% - 16.5px);
+    left: calc(50% - 24.5px);
+    font-weight: 500;
+  }
+  .component-1-90 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .login-button {
+    position: absolute;
+    bottom: 53px;
+    left: 966px;
+    width: 349px;
+    height: 81px;
+    color: var(--color-white);
+  }
+  .icon-ionic-md-arrow-back2 {
+    position: absolute;
+    top: 31px;
+    right: 38.75px;
+    width: 38.25px;
+    height: 38.25px;
+  }
+  .add-payments {
+    position: absolute;
+    top: 40px;
+    left: 89px;
+    font-size: var(--font-size-7xl);
+    font-weight: 600;
+    color: var(--color-teal);
+  }
+  .path-396-parent3 {
+    position: absolute;
+    top: calc(50% - 309px);
+    left: 96px;
+    width: 727px;
+    height: 90px;
+  }
+  .save {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 29.5px);
+    font-weight: 500;
+  }
+  .login-button2 {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 149.5px);
+    width: 349px;
+    height: 81px;
+    cursor: pointer;
+    color: var(--color-white);
+  }
+  .path-396-parent4,
+  .path-396-parent5,
+  .path-396-parent6 {
+    position: absolute;
+    top: calc(50% - 187px);
+    left: 89px;
+    width: 727px;
+    height: 90px;
+  }
+  .path-396-parent5,
+  .path-396-parent6 {
+    top: calc(50% - 76px);
+  }
+  .path-396-parent6 {
+    top: calc(50% + 35px);
+  }
+  .to-do-list-container {
+    position: absolute;
+    right: 51px;
+    bottom: 0;
+    width: 1507px;
+    height: 900px;
+  }
+  .login-button3 {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 149.5px);
+    width: 349px;
+    height: 81px;
+    color: var(--color-white);
+  }
+  .payments-add {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: left;
+    font-size: var(--font-size-4xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .payments-edit-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-black);
+    width: 1920px;
+    height: 1080px;
+    opacity: 0.1;
+  }
+  .to-do-list4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background-color: var(--color-white);
+    box-shadow: 0 10px 20px rgba(196, 200, 208, 0.4);
+  }
+  .icon-ionic-md-arrow-back4 {
+    position: absolute;
+    top: 31px;
+    right: 38.75px;
+    width: 38.25px;
+    height: 38.25px;
+    cursor: pointer;
+  }
+  .edit-payments {
+    position: absolute;
+    top: 40px;
+    left: 89px;
+    font-size: var(--font-size-7xl);
+    font-weight: 600;
+    color: var(--color-teal);
+  }
+  .path-396-icon14 {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 50px;
+  }
+  .type-of-fee2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .path-396-parent11 {
+    position: absolute;
+    top: calc(50% - 309px);
+    left: 96px;
+    width: 727px;
+    height: 90px;
+  }
+  .component-1-89-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-lg);
+    background-color: var(--color-gray-500);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+  }
+  .save2 {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 29.5px);
+    font-weight: 500;
+  }
+  .component-1-89 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .login-button4 {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 149.5px);
+    width: 349px;
+    height: 81px;
+    cursor: pointer;
+    color: var(--color-white);
+  }
+  .path-396-parent12,
+  .path-396-parent13,
+  .path-396-parent14 {
+    position: absolute;
+    top: calc(50% - 187px);
+    left: 89px;
+    width: 727px;
+    height: 90px;
+  }
+  .path-396-parent13,
+  .path-396-parent14 {
+    top: calc(50% - 76px);
+  }
+  .path-396-parent14 {
+    top: calc(50% + 35px);
+  }
+  .override-option {
+    position: absolute;
+    top: calc(50% + 198px);
+    left: 89px;
+    font-size: var(--font-size-6xl);
+    font-weight: 600;
+  }
+  .to-do-list-parent2 {
+    position: absolute;
+    right: 65px;
+    bottom: 12px;
+    width: 1507px;
+    height: 900px;
+  }
+  .icon-ionic-md-arrow-back5 {
+    position: absolute;
+    top: 31px;
+    right: 38.75px;
+    width: 38.25px;
+    height: 38.25px;
+  }
+  .login-button5 {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 149.5px);
+    width: 349px;
+    height: 81px;
+    color: var(--color-white);
+  }
+  .component-45-10,
+  .component-45-9 {
+    position: absolute;
+    top: 839.82px;
+    left: 719.9px;
+    width: 47px;
+    height: 25px;
+  }
+  .component-45-10 {
+    width: 58.5px;
+    cursor: pointer;
+  }
+  .payments-edit {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: left;
+    font-size: var(--font-size-4xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .payments-deete-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-black);
+    width: 1920px;
+    height: 1080px;
+    opacity: 0.1;
+  }
+  .to-do-list6 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background-color: var(--color-white);
+    box-shadow: 0 10px 20px rgba(196, 200, 208, 0.4);
+  }
+  .to-do-list-wrapper {
+    position: absolute;
+    top: 270px;
+    left: 420px;
+    width: 1080px;
+    height: 540px;
+  }
+  .undraw-throw-away-re-x60k-icon {
+    position: absolute;
+    top: 336.83px;
+    left: 454.5px;
+    width: 483px;
+    height: 270.33px;
+  }
+  .you-sure-you {
+    margin: 0;
+  }
+  .you-sure-you-container {
+    position: absolute;
+    top: 407px;
+    left: 1007px;
+    font-size: var(--font-size-7xl);
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .component-1-91-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-lg);
+    background-color: var(--color-brown);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+  }
+  .delete {
+    position: absolute;
+    top: calc(50% - 16.5px);
+    left: calc(50% - 38.5px);
+    font-weight: 500;
+  }
+  .component-1-91 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .login-button6 {
+    cursor: pointer;
+  }
+  .login-button6,
+  .login-button7 {
+    position: absolute;
+    top: 703px;
+    left: 1007px;
+    width: 349px;
+    height: 81px;
+  }
+  .component-1-92-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-lg);
+    background-color: var(--color-gray-500);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+  }
+  .cancel {
+    position: absolute;
+    top: calc(50% - 16.5px);
+    left: calc(50% - 42.5px);
+    font-weight: 500;
+  }
+  .login-button8 {
+    cursor: pointer;
+  }
+  .login-button8,
+  .login-button9 {
+    position: absolute;
+    top: 703px;
+    left: 589px;
+    width: 349px;
+    height: 81px;
+  }
+  .payments-deete {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: left;
+    font-size: var(--font-size-4xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  
